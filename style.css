@@ -1,0 +1,279 @@
+/* =========================================
+   FRIEND OF YOU - COMPLETE CSS
+   Blue + Mint Green + Lavender Theme
+   ========================================= */
+
+
+/* ---------- MAIN PAGE ---------- */
+
+.stApp {
+    background: linear-gradient(
+        135deg,
+        #eaf8ff 0%,
+        #effff7 50%,
+        #f3f0ff 100%
+    );
+}
+
+
+/* ---------- MAIN CONTENT ---------- */
+
+.block-container {
+    max-width: 850px;
+    padding-top: 35px;
+    padding-bottom: 50px;
+}
+
+
+/* ---------- TITLE ---------- */
+
+.title {
+    text-align: center;
+
+    font-size: 48px;
+    font-weight: 800;
+
+    background: linear-gradient(
+        90deg,
+        #42a5c6,
+        #52b788,
+        #756bc4
+    );
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    margin-top: 20px;
+    margin-bottom: 5px;
+
+    letter-spacing: 1px;
+}
+
+
+/* ---------- SUBTITLE ---------- */
+
+.subtitle {
+    text-align: center;
+
+    color: #568b82;
+
+    font-size: 19px;
+    font-weight: 500;
+
+    margin-bottom: 30px;
+}
+
+
+/* ---------- QUESTION LABEL ---------- */
+
+.stTextInput label {
+    color: #397f91 !important;
+
+    font-size: 17px !important;
+    font-weight: 600 !important;
+}
+
+
+/* ---------- TEXT INPUT ---------- */
+
+.stTextInput input {
+
+    background-color: #ffffff !important;
+
+    color: #333333 !important;
+
+    border: 2px solid #a9ddec !important;
+
+    border-radius: 14px !important;
+
+    padding: 14px !important;
+
+    font-size: 16px !important;
+
+    transition: 0.3s;
+}
+
+
+/* ---------- INPUT HOVER ---------- */
+
+.stTextInput input:hover {
+
+    border-color: #7bc9d8 !important;
+
+}
+
+
+/* ---------- INPUT FOCUS ---------- */
+
+.stTextInput input:focus {
+
+    border: 2px solid #65b9cc !important;
+
+    box-shadow:
+        0 0 10px rgba(101, 185, 204, 0.30) !important;
+
+}
+
+
+/* ---------- ASK AI BUTTON ---------- */
+
+.stButton > button {
+
+    width: 100%;
+
+    height: 52px;
+
+    margin-top: 15px;
+
+    background: linear-gradient(
+        90deg,
+        #68bfd4,
+        #70c99a
+    ) !important;
+
+    color: white !important;
+
+    border: none !important;
+
+    border-radius: 14px !important;
+
+    font-size: 18px !important;
+
+    font-weight: 700 !important;
+
+    box-shadow:
+        0 5px 15px rgba(75, 160, 150, 0.20);
+
+    transition: all 0.3s ease;
+
+}
+
+
+/* ---------- BUTTON HOVER ---------- */
+
+.stButton > button:hover {
+
+    background: linear-gradient(
+        90deg,
+        #50aec5,
+        #58b983
+    ) !important;
+
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 8px 20px rgba(75, 160, 150, 0.30);
+
+}
+
+
+/* ---------- BUTTON PRESS ---------- */
+
+.stButton > button:active {
+
+    transform: translateY(1px);
+
+}
+
+
+/* ---------- AI RESPONSE BOX ---------- */
+
+.response-box {
+
+    background: linear-gradient(
+        135deg,
+        #ffffff,
+        #f0fff7
+    );
+
+    padding: 25px;
+
+    margin-top: 30px;
+
+    border-radius: 20px;
+
+    border-left: 6px solid #68bfd4;
+
+    box-shadow:
+        0 8px 25px rgba(70, 140, 130, 0.15);
+
+}
+
+
+/* ---------- RESPONSE HEADING ---------- */
+
+.response-box h2 {
+
+    color: #4b9680;
+
+    font-size: 25px;
+
+    margin-bottom: 15px;
+
+}
+
+
+/* ---------- RESPONSE TEXT ---------- */
+
+.response-box p {
+
+    color: #444444;
+
+    font-size: 16px;
+
+    line-height: 1.7;
+
+}
+
+
+/* ---------- WARNING ---------- */
+
+.stAlert {
+
+    border-radius: 14px !important;
+
+}
+
+
+/* ---------- SPINNER ---------- */
+
+.stSpinner > div {
+
+    border-top-color: #63b8c9 !important;
+
+}
+
+
+/* ---------- SCROLLBAR ---------- */
+
+::-webkit-scrollbar {
+
+    width: 8px;
+
+}
+
+
+::-webkit-scrollbar-track {
+
+    background: #eaf8ff;
+
+}
+
+
+::-webkit-scrollbar-thumb {
+
+    background: linear-gradient(
+        #68bfd4,
+        #70c99a
+    );
+
+    border-radius: 10px;
+
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+
+    background: #58aebf;
+
+}
